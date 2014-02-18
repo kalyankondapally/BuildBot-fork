@@ -40,16 +40,16 @@ Now, we are ready to start the master.
 cd src/masters/master.chromium.ozonewayland
 master restart
 
-  ...
-
+  ```
+  
 Open another terminal and cd to src/slave
 
   ```
 cd src/slave
 TESTING_MASTER_HOST=localhost TESTING_MASTER=ChromiumOZONEWAYLAND TESTING_SLAVENAME=vm841-m1 make restart
 
-  ...
-
+  ```
+  
 One can start the desired slave (TESTING_SLAVENAME) defined in masters/master.chromium.ozonewayland/slave.cfg
 
 Once you have started both the master and a slave, browse to the waterfall: http://localhost:8011/waterfall
