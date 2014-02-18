@@ -28,6 +28,7 @@ cd src/
   ```
 
 Create site_config/.bot_password text file with a password on one line for your slave to serve to be able to connect to the master.
+
   ```
 echo Bleh > site_config/.bot_password
 
