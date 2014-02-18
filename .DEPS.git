@@ -4,7 +4,7 @@ vars = {
 }
 
 deps = {
-  "src": Var('chromium_url') + '@' + Var('chromium_rev'),
+  "src": Var('build_url') + '@' + Var('build_rev'),
 }
 
 recursion = 2
