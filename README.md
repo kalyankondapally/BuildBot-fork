@@ -3,7 +3,7 @@ BuildBot-fork
 
 ## Contents
 
-  - [Dependencies](#dependencies) - the architecture behind
+  - [Dependencies](#dependencies)
   - [Howto](#howto) - set up the system environment, build and run
   - [License](#license)
 
